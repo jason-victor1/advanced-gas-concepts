@@ -22,6 +22,8 @@ This repository provides an overview of key Ethereum transaction concepts which 
   - **Dynamic Adjustment:** Adjusts based on block fullness (EIP-1559).
 - **Example:** If the base fee is 50 Gwei and is burnt, it reduces the supply of Ether.
 
+**Side Note:** EIP 1559 is an Ethereum proposal aimed at overhauling the fee model by introducing a “base fee”. The "base fee" adjusts dynamically based on network activity and is burned to reduce Ether supply. This potentially makes it deflationary during high usage. While EIP-1559 doesn’t directly lower gas fees, it optimizes the fee system and creates a feedback loop between network activity and Ether scarcity.
+
 ### 4. Max Gas Fee
 - **Definition:** Maximum cost per gas the transaction allows.
 - **Example:** Configured prior to sending a transaction which ensures you don't overspend.
